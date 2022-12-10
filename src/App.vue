@@ -1,11 +1,19 @@
 <script setup>
+import Navbar from './partials/Navbar.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import Footer from './partials/Footer.vue';
 </script>
 
 <template>
+  <!-- begin:: navbar -->
+  <Navbar />
+  <!-- end:: navbar -->
+  
   <HelloWorld msg="Vite + Vue" />
+  
+  <!-- begin:: footer -->
   <Footer />
+  <!-- end:: footer -->
 </template>
 
 <style scoped>
