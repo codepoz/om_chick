@@ -1,34 +1,23 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <div>
-      <h2 class="text-2xl font-bold text-blue-800">
-        how to start your project with tailwind css & Vue 3
-      </h2>
-    </div>
-  </div>
-</template>
-
-<script>
+<script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import '@/assets/tailwind.css';
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+import Footer from './partials/Footer.vue';
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<template>
+  <HelloWorld msg="Vite + Vue" />
+  <Footer />
+</template>
+
+<style scoped>
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>
