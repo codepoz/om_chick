@@ -3,7 +3,7 @@
         <div class="pt-10 pb-10 bg-indigo-500">
             <div class="container mx-auto">
                 <div class="justify-center text-center">
-                    <h2 class="text-4xl font-semibold">About</h2>
+                    <h2 class="text-4xl font-semibold mb-5">Kunjungi Instagram Kami</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, cupiditate voluptates? Quod,
                         recusandae. Eius a
@@ -17,7 +17,7 @@
         <div class="pt-10 pb-10 bg-indigo-400">
             <div class="container mx-auto">
                 <div class="justify-center text-center">
-                    <h2 class="text-4xl font-semibold">About</h2>
+                    <h2 class="text-4xl font-semibold mb-5">Yukk Kenal Lebih Jauh</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, cupiditate voluptates? Quod,
                         recusandae. Eius a
