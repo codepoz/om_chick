@@ -2,7 +2,7 @@
     <section class="pt-10 pb-10 bg-white">
         <div class="grid grid-cols-2 gap-4">
             <div class="pt-5 pb-5">
-                <img src="./../assets/images/logo.png" alt="">
+                <img src="./../assets/images/logo.png" alt="logo" width="150">
             </div>
             <div class="pt-5 pb-5">
                 <h2 class="text-center">Hubungi Kami</h2>

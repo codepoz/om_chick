@@ -3,6 +3,7 @@
   import Header from './components/Header.vue';
   import About from './components/About.vue';
   import Product from './components/Product.vue';
+  import More from './components/More.vue';
   import Footer from './partials/Footer.vue';
 </script>
 
@@ -14,18 +15,20 @@
   <!-- begin:: header -->
   <Header />
   <!-- end:: header -->
-  
-  <div class="container mx-auto">
-    <!-- begin:: about -->
-    <About />
-    <!-- end:: about -->
 
-    <!-- begin:: product -->
-    <Product />
-    <!-- end:: product -->
+  <!-- begin:: about -->
+  <About />
+  <!-- end:: about -->
 
-    <!-- begin:: footer -->
-    <Footer />
-    <!-- end:: footer -->
-  </div>
+  <!-- begin:: product -->
+  <Product />
+  <!-- end:: product -->
+
+  <!-- begin:: more -->
+  <More />
+  <!-- end:: more -->
+
+  <!-- begin:: footer -->
+  <Footer />
+  <!-- end:: footer -->
 </template>
