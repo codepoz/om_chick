@@ -8,11 +8,12 @@ module.exports = {
       bgone: "#ff9940",
       bgtwo: "#ff2f2b",
       bgthree: "#333333",
+      bgfour: "#fffaf5",
 
       // text colors
       textone: '#47201a',
-      texttwo: '#',
-      textthree: '#',
+      texttwo: '',
+      textthree: '',
 
       // normal
       white: '#FFFFFF',

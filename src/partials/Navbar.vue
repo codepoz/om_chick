@@ -9,15 +9,9 @@
               md:flex md:justify-between md:items-center
             ">
                 <div class="flex items-center justify-between">
-                    <router-link to="/" class="
-                  text-xl
-                  font-bold
-                  text-gray-800
-                  md:text-2xl
-                  hover:text-blue-400
-                ">
-                        <img src="./..//assets/images/logo.png" alt="logo" class="w-20">
-                    </router-link>
+                    <a href="/">
+                        <img src="./../../images/logo.png" alt="logo" class="w-20" />
+                    </a>
                     <!-- Mobile menu button -->
                     <div @click="showMenu = !showMenu" class="flex md:hidden">
                         <button type="button" class="
@@ -47,16 +41,16 @@
                 md:space-x-10
                 md:mt-0
               ">
-                    <li class="text-sm font-bold text-white hover:text-blue">
+                    <li class="text-sm font-bold text-white hover:text-textone">
                         Home
                     </li>
-                    <li class="text-sm font-bold text-white hover:text-blue">
+                    <li class="text-sm font-bold text-white hover:text-textone">
                         About
                     </li>
-                    <li class="text-sm font-bold text-white hover:text-blue">
+                    <li class="text-sm font-bold text-white hover:text-textone">
                         Blogs
                     </li>
-                    <li class="text-sm font-bold text-white hover:text-blue">
+                    <li class="text-sm font-bold text-white hover:text-textone">
                         Contact Us
                     </li>
                 </ul>
