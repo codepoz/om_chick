@@ -10,7 +10,7 @@
             ">
                 <div class="flex items-center justify-between">
                     <a href="/">
-                        <img src="./../../images/logo.png" alt="logo" class="w-20" />
+                        <img src="./../assets/images/logo.png" alt="logo" class="w-20" />
                     </a>
                     <!-- Mobile menu button -->
                     <div @click="showMenu = !showMenu" class="flex md:hidden">

@@ -4,7 +4,7 @@
             <div class="grid grid-cols-2 gap-4">
                 <div class="pt-5 pb-5">
                     <div class="py-2 flex items-center justify-center">
-                        <img src="./../../images/logo.png" alt="logo" width="150">
+                        <img src="./../assets/images/logo.png" alt="logo" width="150">
                     </div>
                 </div>
                 <div class="pt-5 pb-5">
