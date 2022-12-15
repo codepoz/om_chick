@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="bg-gray-100">
+        <div class="bg-bgone">
             <nav class="
               container
               px-6
@@ -15,7 +15,8 @@
                   text-gray-800
                   md:text-2xl
                   hover:text-blue-400
-                ">Logo
+                ">
+                        <img src="./..//assets/images/logo.png" alt="logo" class="w-20">
                     </router-link>
                     <!-- Mobile menu button -->
                     <div @click="showMenu = !showMenu" class="flex md:hidden">
@@ -32,8 +33,8 @@
                         </button>
                     </div>
                 </div>
-    
-    
+
+
                 <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                 <ul :class="showMenu ? 'flex' : 'hidden'" class="
                 flex-col
@@ -46,16 +47,16 @@
                 md:space-x-10
                 md:mt-0
               ">
-                    <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+                    <li class="text-sm font-bold text-white hover:text-blue">
                         Home
                     </li>
-                    <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+                    <li class="text-sm font-bold text-white hover:text-blue">
                         About
                     </li>
-                    <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+                    <li class="text-sm font-bold text-white hover:text-blue">
                         Blogs
                     </li>
-                    <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+                    <li class="text-sm font-bold text-white hover:text-blue">
                         Contact Us
                     </li>
                 </ul>
@@ -65,11 +66,11 @@
 </template>
 
 <script>
-export default {
-    data() {
-        return {
-            showMenu: false,
-        };
-    },
-};
+    export default {
+        data() {
+            return {
+                showMenu: false,
+            };
+        },
+    };
 </script>

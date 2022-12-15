@@ -3,15 +3,38 @@
         <div class="container mx-auto">
             <div class="grid grid-cols-2 gap-4">
                 <div class="pt-5 pb-5">
-                    <img src="./../assets/images/logo.png" alt="logo" width="150">
+                    <div class="py-2 flex items-center justify-center">
+                        <img src="./../assets/images/logo.png" alt="logo" width="150">
+                    </div>
                 </div>
                 <div class="pt-5 pb-5">
-                    <h2 class="text-center">Hubungi Kami</h2>
-                    <p>
-                        Untuk About
-                    </p>
+                    <h2 class="font-semibold text-2xl text-center">Hubungi Kami</h2>
+                    <div class="py-2 flex items-center justify-center">
+                        <div class="grid gap-4 grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3">
+                            <a v-for="row in contact" :key="row.icon" :href="row.href" target="_blank"
+                                class="text-4xl p-2 mx-2">
+                                <font-awesome-icon :icon="row.icon" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 </template>
+
+<script setup>
+    const contact = [{
+            icon: 'fa-brands fa-instagram',
+            href: 'https://www.instagram.com/omchick_crispy',
+        },
+        {
+            icon: 'fa-brands fa-facebook',
+            href: 'https://web.facebook.com/omchick_crispy',
+        },
+        {
+            icon: 'fa-brands fa-whatsapp',
+            href: 'https://wa.me/6285242907595',
+        },
+    ]
+</script>

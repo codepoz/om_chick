@@ -1,11 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  content: [],
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {},
     colors: {
-      primary: '#ff9940',
+      // background colors
+      bgone: "#ff9940",
+      bgtwo: "#ff2f2b",
+      bgthree: "#333333",
+
+      // text colors
+      textone: '#47201a',
+      texttwo: '#',
+      textthree: '#',
+
+      // normal
+      white: '#FFFFFF',
+      blue: '#1E90FF',
     }
   },
   plugins: [],
