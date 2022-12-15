@@ -1,6 +1,6 @@
 <template>
     <div class="relative pt-16 pb-32 flex items-center justify-center" style="min-height: 102vh;">
-        <div class="absolute w-full h-full bg-center bg-cover" style="background-image: url('./../src/assets/images/bg.png');">
+        <div class="absolute w-full h-full bg-center bg-cover" style="background-image: url('./images/bg.png');">
         </div>
     
         <div class="container relative mx-auto">
