@@ -14,7 +14,7 @@
                 </div>
             </div>
         </div>
-        <div class="pt-10 pb-10 bg-indigo-400">
+        <div class="pt-10 pb-10 bg-primary">
             <div class="container mx-auto">
                 <div class="justify-center text-center">
                     <h2 class="text-4xl font-semibold mb-5">Yukk Kenal Lebih Jauh</h2>
