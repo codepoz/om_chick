@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '2/3': '66.666667%'
+      }
+    },
     colors: {
       // background colors
       bgone: "#ff9940",
@@ -18,6 +22,9 @@ module.exports = {
       // normal
       white: '#FFFFFF',
       blue: '#1E90FF',
+    },
+    fontFamily: {
+      body: ['Montserrat'],
     }
   },
   plugins: [],

@@ -10,9 +10,9 @@
                 <div class="pt-5 pb-5">
                     <h2 class="font-semibold text-2xl text-center text-textone">Hubungi Kami</h2>
                     <div class="py-2 flex items-center justify-center">
-                        <div class="grid gap-4 grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4">
+                        <div class="grid gap-2 grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4">
                             <a v-for="row in contact" :key="row.icon" :href="row.href" target="_blank"
-                                class="text-4xl p-2 mx-2">
+                                class="text-4xl">
                                 <font-awesome-icon :icon="row.icon" />
                             </a>
                         </div>
