@@ -36,7 +36,7 @@
     <section class="pt-10 pb-10 bg-bgfour">
         <div class="container mx-auto">
             <div class="justify-center text-center">
-                <h2 class="text-4xl font-semibold mb-5">Produk Kami</h2>
+                <h2 class="text-4xl font-semibold mb-5">Menu Kami</h2>
                 <div class="gap-4 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                     <div v-for="rows in menus" :key="rows.name" class="px-2 py-2">
                         <img :src="rows.images" :title="rows.name">
@@ -45,7 +45,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="/produk" target="_blank"
+                <a href="/menu" target="_blank"
                     class="rounded-md bg-bgtwo text-white font-semibold pt-2 pb-2 px-3">Lihat Semua Menu</a>
             </div>
         </div>
@@ -55,9 +55,7 @@
         <div class="container mx-auto">
             <div class="justify-center text-center">
                 <h2 class="text-4xl font-semibold mb-5 text-white">Kunjungi Instagram Kami</h2>
-                <a href="https://www.instagram.com/omchick_crispy" target="_blank"
-                    class="rounded-md bg-bgtwo text-white font-semibold pt-2 pb-2 px-3">Ikuti
-                    @omchick_crispy</a>
+                <a href="https://www.instagram.com/omchick_crispy" target="_blank" class="rounded-md bg-bgtwo text-white font-semibold pt-2 pb-2 px-3">Ikuti @omchick_crispy</a>
             </div>
         </div>
     </section>
