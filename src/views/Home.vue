@@ -146,9 +146,9 @@
                     loop: 1
                 },
                 images: [
-                    "https://picsum.photos/id/237/1024/800",
-                    "https://picsum.photos/id/238/1024/800",
-                    "https://picsum.photos/id/239/1024/800"
+                    "./slide/slide_1.jpg",
+                    "./slide/slide_2.jpg",
+                    "./slide/slide_3.jpg",
                 ],
                 active: 0
             }

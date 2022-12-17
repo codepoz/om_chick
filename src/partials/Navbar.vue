@@ -44,11 +44,11 @@ const navigation = [{
     },
     {
         name: 'Tentang Kami',
-        href: '',
+        href: '#',
     },
     {
         name: 'Kontak Kami',
-        href: '',
+        href: '#',
     },
 ]
 </script>
