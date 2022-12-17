@@ -39,15 +39,15 @@
         },
         {
             icon: 'fa-brands fa-facebook',
-            href: 'https://web.facebook.com/omchick_crispy',
+            href: 'https://www.facebook.com/omchickcrispy',
         },
         {
             icon: 'fa-brands fa-whatsapp',
-            href: 'https://wa.me/6285242907595',
+            href: 'https://wa.me/6282188044454',
         },
         {
             icon: 'fa-solid fa-envelope',
-            href: '',
+            href: 'mailto:omchickofficial@gmail.com',
         },
     ]
 </script>
