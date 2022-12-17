@@ -1,5 +1,5 @@
 <template>
-    <section class="pt-10 pb-10 bg-bgfour">
+    <section class="pt-5 pb-5">
         <div class="container mx-auto">
             <div class="grid grid-cols-2 gap-4">
                 <div class="pt-5 pb-5">
@@ -21,7 +21,7 @@
             </div>
         </div>
     </section>
-    <section class="pt-5 pb-5">
+    <section class="pt-5 pb-5 bg-bgfour">
         <div class="container mx-auto">
             <div class="py-2 flex items-center justify-center">
                 <p class="text-center text-gray-500">

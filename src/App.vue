@@ -1,6 +1,5 @@
 <script setup>
 import Navbar from './partials/Navbar.vue';
-import Home from './views/Home.vue';
 import Footer from './partials/Footer.vue';
 </script>
 
@@ -10,7 +9,7 @@ import Footer from './partials/Footer.vue';
   <!-- end:: navbar -->
 
   <!-- begin:: body -->
-  <Home />
+  <RouterView />
   <!-- end:: body -->
 
   <!-- begin:: footer -->

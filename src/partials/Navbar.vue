@@ -32,15 +32,15 @@
 <script setup>
 const navigation = [{
         name: 'Home',
-        href: '',
+        href: '/',
     },
     {
         name: 'Menu Kami',
-        href: '',
+        href: '/menu',
     },
     {
         name: 'Lokasi Kami',
-        href: '',
+        href: '/location',
     },
     {
         name: 'Tentang Kami',
