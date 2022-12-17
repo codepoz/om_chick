@@ -46,7 +46,7 @@
                     <div class="mx-2 my-2">
                         <p class="text-textone font-bold text-lg text-justify">
                             Om Chick Crispy Chicken merupakan salah satu rumah makan yang menyediakan banyak varian ayam
-                            crispy (original, geprek dan saos)dengan cita rasa yang khas dan harga terjangkau bagi semua
+                            crispy (original, geprek dan saos) dengan cita rasa yang khas dan harga terjangkau bagi semua
                             kalangan masyarakat yang telah teruji hingga puluhan tahun.
                         </p>
                     </div>
