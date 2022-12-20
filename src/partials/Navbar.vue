@@ -39,16 +39,16 @@ const navigation = [{
         href: '/menu',
     },
     {
-        name: 'Lokasi Kami',
-        href: '/location',
-    },
-    {
         name: 'Tentang Kami',
-        href: '#',
+        href: '/about',
     },
     {
         name: 'Kontak Kami',
-        href: '#',
+        href: '/contact',
+    },
+    {
+        name: 'Lokasi Kami',
+        href: '/location',
     },
 ]
 </script>

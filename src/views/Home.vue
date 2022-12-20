@@ -6,11 +6,13 @@
             <div class="m-auto">
                 <div class="pt-5 pb-5 px-5 w-3/5">
                     <div class="mt-5 mb-5">
-                        <h1 class="text-textone font-semibold text-1xl sm:text-4xl md:text-6xl lg:text-8xl">Om Chick Bukan Ayam Crispy
+                        <h1 class="text-textone font-semibold text-1xl sm:text-4xl md:text-6xl lg:text-8xl">Om Chick
+                            Bukan Ayam Crispy
                             Biasa !!</h1>
                     </div>
                     <div class="mt-5 mb-5">
-                        <a href="#" class="rounded-md bg-bgtwo text-white font-semibold py-2 px-2 text-xs sm:text-sm md:text-sm lg:text-sm">Lihat
+                        <a href="#"
+                            class="rounded-md bg-bgtwo text-white font-semibold py-2 px-2 text-xs sm:text-sm md:text-sm lg:text-sm">Lihat
                             selengkapnya</a>
                     </div>
                 </div>
@@ -20,7 +22,7 @@
 
     <section class="pt-10 pb-10">
         <div class="container mx-auto">
-            <div class="justify-center">
+            <div class="px-5 justify-center">
                 <h2 class="font-semibold mb-5 text-center text-2xl lg:text-4xl">Tentang Kami</h2>
 
                 <div class="gap-4 grid lg:grid-cols-2">
@@ -46,7 +48,8 @@
                     <div class="mx-2 my-2">
                         <p class="text-textone font-bold text-lg text-justify">
                             Om Chick Crispy Chicken merupakan salah satu rumah makan yang menyediakan banyak varian ayam
-                            crispy (original, geprek dan saos) dengan cita rasa yang khas dan harga terjangkau bagi semua
+                            crispy (original, geprek dan saos) dengan cita rasa yang khas dan harga terjangkau bagi
+                            semua
                             kalangan masyarakat yang telah teruji hingga puluhan tahun.
                         </p>
                     </div>
@@ -57,11 +60,14 @@
 
     <section class="pt-10 pb-10 bg-bgfour">
         <div class="container mx-auto">
-            <div class="justify-center text-center">
+            <div class="px-5 justify-center text-center">
                 <h2 class="font-semibold mb-5 text-2xl lg:text-4xl">Menu Kami</h2>
-                <div class="gap-4 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-                    <div v-for="rows in menus" :key="rows.name" class="px-2 py-2">
-                        <img :src="rows.images" :title="rows.name">
+
+                <div class="gap-4 grid py-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+                    <div v-for="rows in menus" :key="rows.name"
+                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
+                        <img :src="rows.images" :title="rows.name"
+                            class="mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
                         <div class="px-6 py-4">
                             <p class="font-semibold text-lg text-textone">{{ rows.name }}</p>
                         </div>
@@ -74,16 +80,17 @@
 
     <section class="pt-10 pb-10 bg-bgthree">
         <div class="container mx-auto">
-            <div class="justify-center text-center">
+            <div class="px-5 justify-center text-center">
                 <h2 class="font-semibold mb-5 text-white text-2xl lg:text-4xl">Kunjungi Instagram Kami</h2>
-                <a href="https://www.instagram.com/omchick_crispy" target="_blank" class="rounded-md bg-bgtwo text-white font-semibold pt-2 pb-2 px-3">Ikuti @omchick_crispy</a>
+                <a href="https://www.instagram.com/omchick_crispy" target="_blank"
+                    class="rounded-md bg-bgtwo text-white font-semibold pt-2 pb-2 px-3">Ikuti @omchick_crispy</a>
             </div>
         </div>
     </section>
 
     <section class="pt-10 pb-10 bg-bgone">
         <div class="container mx-auto">
-            <div class="text-center">
+            <div class="px-5 text-center">
                 <h2 class="font-semibold mb-5 text-2xl lg:text-4xl">Yukk Kenal Lebih Jauh</h2>
                 <div class="flex items-center justify-center">
                     <YoutubeVue3 ref="youtube" :videoid="play.video_id" :loop="play.loop" />
@@ -149,6 +156,8 @@
                     "./slide/slide_1.jpg",
                     "./slide/slide_2.jpg",
                     "./slide/slide_3.jpg",
+                    "./slide/slide_5.jpg",
+                    "./slide/slide_4.jpg",
                 ],
                 active: 0
             }

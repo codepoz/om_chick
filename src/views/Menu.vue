@@ -4,80 +4,80 @@
             <h1 class="text-4xl text-center font-bold">Menu Kami</h1>
 
             <!-- begin:: bakar penyet -->
-            <div class="px-5 py-7 text-center">
+            <div class="px-5 py-7">
                 <h2 class="font-bold mb-5 text-center text-2xl">Bakar Penyet</h2>
 
                 <div class="gap-4 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                     <div v-for="rows in bakar_penyet" :key="rows.name"
-                        class="px-2 py-2 my-auto hover:shadow-xl hover:duration-500">
+                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
                         <img :src="rows.images" :title="rows.name"
-                            class="mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
+                            class="py-2 mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
                         <div class="px-6 py-4">
-                            <p class="font-semibold text-lg text-textone">{{ rows.name }}</p>
+                            <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- end:: bakar penyet -->
             <!-- begin:: crispy -->
-            <div class="px-5 py-7 text-center">
+            <div class="px-5 py-7">
                 <h2 class="font-bold mb-5 text-center text-2xl">Crispy</h2>
 
                 <div class="gap-4 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                     <div v-for="rows in crispy" :key="rows.name"
-                        class="px-2 py-2 my-auto hover:shadow-xl hover:duration-500">
+                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
                         <img :src="rows.images" :title="rows.name"
-                            class="mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
+                            class="py-2 mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
                         <div class="px-6 py-4">
-                            <p class="font-semibold text-lg text-textone">{{ rows.name }}</p>
+                            <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- end:: crispy -->
             <!-- begin:: geprek -->
-            <div class="px-5 py-7 text-center">
+            <div class="px-5 py-7">
                 <h2 class="font-bold mb-5 text-center text-2xl">Bakar Penyet</h2>
 
                 <div class="gap-4 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                     <div v-for="rows in geprek" :key="rows.name"
-                        class="px-2 py-2 my-auto hover:shadow-xl hover:duration-500">
+                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
                         <img :src="rows.images" :title="rows.name"
-                            class="mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
+                            class="py-2 mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
                         <div class="px-6 py-4">
-                            <p class="font-semibold text-lg text-textone">{{ rows.name }}</p>
+                            <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- end:: geprek -->
             <!-- begin:: saos -->
-            <div class="px-5 py-7 text-center">
+            <div class="px-5 py-7">
                 <h2 class="font-bold mb-5 text-center text-2xl">Crispy</h2>
 
                 <div class="gap-4 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                     <div v-for="rows in crispy" :key="rows.name"
-                        class="px-2 py-2 my-auto hover:shadow-xl hover:duration-500">
+                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
                         <img :src="rows.images" :title="rows.name"
-                            class="mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
+                            class="py-2 mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
                         <div class="px-6 py-4">
-                            <p class="font-semibold text-lg text-textone">{{ rows.name }}</p>
+                            <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- end:: saos -->
             <!-- begin:: drink -->
-            <div class="px-5 py-7 text-center">
+            <div class="px-5 py-7">
                 <h2 class="font-bold mb-5 text-center text-2xl">Crispy</h2>
 
                 <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                     <div v-for="rows in drink" :key="rows.name"
-                        class="px-2 py-2 my-auto hover:shadow-xl hover:duration-500">
+                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
                         <img :src="rows.images" :title="rows.name"
-                            class="mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
+                            class="py-2 mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
                         <div class="px-6 py-4">
-                            <p class="font-semibold text-lg text-textone">{{ rows.name }}</p>
+                            <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
                         </div>
                     </div>
                 </div>
