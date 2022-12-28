@@ -6,14 +6,12 @@
             <div class="m-auto">
                 <div class="pt-5 pb-5 px-5 w-3/5">
                     <div class="mt-5 mb-5">
-                        <h1 class="text-textone font-semibold text-1xl sm:text-4xl md:text-6xl lg:text-8xl">Om Chick
+                        <h1 class="text-textone font-bold text-1xl sm:text-4xl md:text-6xl lg:text-8xl">Om Chick
                             Bukan Ayam Crispy
                             Biasa !!</h1>
                     </div>
                     <div class="mt-5 mb-5">
-                        <a href="#"
-                            class="rounded-md bg-bgtwo text-white font-semibold py-2 px-2 text-xs sm:text-sm md:text-sm lg:text-sm">Lihat
-                            selengkapnya</a>
+                        <a href="https://linktr.ee/omchick_crispy" target="_blank" class="rounded-md bg-bgtwo text-white font-semibold py-3 px-4 text-xs sm:text-sm md:text-sm lg:text-sm">Info Pemesanan</a>
                     </div>
                 </div>
             </div>
