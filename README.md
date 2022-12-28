@@ -12,3 +12,6 @@
 - Tailwind CSS 2
 - Vue 3
 - Vite
+
+## Plgin
+- [@vueuse/motion](https://motion.vueuse.org/) => for animation vuejs

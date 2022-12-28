@@ -1,3 +1,23 @@
+<script setup>
+    const menus = [{
+            images: './../../menus/food/crispy/paket_om_1.png',
+            name: 'Paket Om 1',
+        },
+        {
+            images: './../../menus/food/geprek/mie_geprek.png',
+            name: 'Mie Geprek',
+        },
+        {
+            images: './../../menus/food/saos/crispy_saos_keju.png',
+            name: 'Crispy Saos Keju',
+        },
+        {
+            images: './../../menus/food/bakar_penyet/paket_ayam_bakar.png',
+            name: 'Paket Ayam Bakar',
+        },
+    ]
+</script>
+
 <template>
     <section class="relative overflow-hidden pb-2/3">
         <img src="./../assets/images/bg.png" alt="" class="absolute h-full w-full object-cover bg-cover" />
@@ -20,11 +40,11 @@
         </div>
     </section>
 
-    <section class="pt-10 pb-10">
+    <section class="pt-10 pb-10" v-motion-slide-visible-bottom>
         <div class="container mx-auto">
             <div class="px-5 justify-center">
                 <h2 class="font-semibold mb-5 text-center text-2xl lg:text-4xl">Tentang Kami</h2>
-
+    
                 <div class="gap-4 grid lg:grid-cols-2">
                     <div class="mx-2 my-2">
                         <div class="relative slide">
@@ -58,7 +78,7 @@
         </div>
     </section>
 
-    <section class="pt-10 pb-10 bg-bgfour">
+    <section class="pt-10 pb-10 bg-bgfour"  v-motion-slide-visible-bottom>
         <div class="container mx-auto">
             <div class="px-5 justify-center text-center">
                 <h2 class="font-semibold mb-5 text-2xl lg:text-4xl">Menu Kami</h2>
@@ -78,7 +98,7 @@
         </div>
     </section>
 
-    <section class="pt-10 pb-10 bg-bgthree">
+    <section class="pt-10 pb-10 bg-bgthree"  v-motion-slide-visible-bottom>
         <div class="container mx-auto">
             <div class="px-5 justify-center text-center">
                 <h2 class="font-semibold mb-5 text-white text-2xl lg:text-4xl">Kunjungi Instagram Kami</h2>
@@ -88,7 +108,7 @@
         </div>
     </section>
 
-    <section class="pt-10 pb-10 bg-bgone">
+    <section class="pt-10 pb-10 bg-bgone" v-motion-slide-visible-bottom>
         <div class="container mx-auto">
             <div class="px-5 text-center">
                 <h2 class="font-semibold mb-5 text-2xl lg:text-4xl">Yukk Kenal Lebih Jauh</h2>
@@ -121,26 +141,6 @@
         left: 0;
     }
 </style>
-
-<script setup>
-    const menus = [{
-            images: './../../menus/food/crispy/paket_om_1.png',
-            name: 'Paket Om 1',
-        },
-        {
-            images: './../../menus/food/geprek/mie_geprek.png',
-            name: 'Mie Geprek',
-        },
-        {
-            images: './../../menus/food/saos/crispy_saos_keju.png',
-            name: 'Crispy Saos Keju',
-        },
-        {
-            images: './../../menus/food/bakar_penyet/paket_ayam_bakar.png',
-            name: 'Paket Ayam Bakar',
-        },
-    ]
-</script>
 
 <script>
     export default {
