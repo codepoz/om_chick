@@ -11,7 +11,9 @@
                             Biasa !!</h1>
                     </div>
                     <div class="mt-5 mb-5">
-                        <a href="https://linktr.ee/omchick_crispy" target="_blank" class="rounded-md bg-bgtwo text-white font-semibold py-3 px-4 text-xs sm:text-sm md:text-sm lg:text-sm">Info Pemesanan</a>
+                        <a href="https://linktr.ee/omchick_crispy" target="_blank"
+                            class="rounded-md bg-bgtwo text-white font-semibold py-3 px-4 text-xs sm:text-sm md:text-sm lg:text-sm">Info
+                            Pemesanan</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +93,10 @@
             <div class="px-5 text-center">
                 <h2 class="font-semibold mb-5 text-2xl lg:text-4xl">Yukk Kenal Lebih Jauh</h2>
                 <div class="flex items-center justify-center">
-                    <YoutubeVue3 ref="youtube" :videoid="play.video_id" :loop="play.loop" />
+                    <!-- video -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4biNRJa_UUw"
+                        title="YouTube video player" frameborder="0"
+                        allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -138,18 +143,10 @@
 </script>
 
 <script>
-    import {
-        YoutubeVue3
-    } from 'youtube-vue3';
-
     export default {
         name: 'App',
         data() {
             return {
-                play: {
-                    video_id: "4biNRJa_UUw",
-                    loop: 1
-                },
                 images: [
                     "./slide/slide_1.jpg",
                     "./slide/slide_2.jpg",
@@ -159,9 +156,6 @@
                 ],
                 active: 0
             }
-        },
-        components: {
-            YoutubeVue3,
         },
         mounted() {
             let i = 0;
