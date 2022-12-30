@@ -6,6 +6,7 @@ import { faWhatsapp, faInstagram, faFacebook } from '@fortawesome/free-brands-sv
 import { faEnvelope, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
 import App from './App.vue'
+import VueGoogleMaps from '@fawmi/vue-google-maps'
 import router from './routes/router'
 
 // begin:: assets
@@ -18,4 +19,10 @@ const app = createApp(App)
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.use(router)
 app.use(MotionPlugin)
+app.use(VueGoogleMaps, {
+    load: {
+        key: 'AIzaSyB-JpweDJ7_cA9-KiEq-iMjQzlluOemnWo',
+    },
+})
+
 app.mount('#app')

@@ -15,3 +15,4 @@
 
 ## Plgin
 - [@vueuse/motion](https://motion.vueuse.org/) => for animation vuejs
+- [@fawmi/vue-google-maps](https://vue-map.netlify.app/) => for google maps

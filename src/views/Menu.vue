@@ -8,12 +8,13 @@
                 <h2 class="font-bold mb-5 text-center text-2xl">Bakar Penyet</h2>
 
                 <div class="gap-4 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-                    <div v-for="rows in bakar_penyet" :key="rows.name"
-                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
-                        <img :src="rows.images" :title="rows.name"
-                            class="py-2 mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
-                        <div class="px-6 py-4">
-                            <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
+                    <div v-for="rows in bakar_penyet" :key="rows.name" class="my-auto group">
+                        <div class="px-2 py-2 rounded-md group-hover:shadow-xl group-hover:duration-500">
+                            <img :src="rows.images" :title="rows.name"
+                                class="py-2 mx-auto transition ease-in group-hover:-translate-y-1 group-hover:scale-110 duration-300">
+                            <div class="px-6 py-4">
+                                <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -24,12 +25,13 @@
                 <h2 class="font-bold mb-5 text-center text-2xl">Crispy</h2>
 
                 <div class="gap-4 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-                    <div v-for="rows in crispy" :key="rows.name"
-                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
-                        <img :src="rows.images" :title="rows.name"
-                            class="py-2 mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
-                        <div class="px-6 py-4">
-                            <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
+                    <div v-for="rows in crispy" :key="rows.name" class="my-auto group">
+                        <div class="px-2 py-2 rounded-md group-hover:shadow-xl group-hover:duration-500">
+                            <img :src="rows.images" :title="rows.name"
+                                class="py-2 mx-auto transition ease-in group-hover:-translate-y-1 group-hover:scale-110 duration-300">
+                            <div class="px-6 py-4">
+                                <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -37,15 +39,16 @@
             <!-- end:: crispy -->
             <!-- begin:: geprek -->
             <div class="px-5 py-7">
-                <h2 class="font-bold mb-5 text-center text-2xl">Bakar Penyet</h2>
+                <h2 class="font-bold mb-5 text-center text-2xl">Geprek</h2>
 
                 <div class="gap-4 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-                    <div v-for="rows in geprek" :key="rows.name"
-                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
-                        <img :src="rows.images" :title="rows.name"
-                            class="py-2 mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
-                        <div class="px-6 py-4">
-                            <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
+                    <div v-for="rows in geprek" :key="rows.name" class="my-auto group">
+                        <div class="px-2 py-2 rounded-md group-hover:shadow-xl group-hover:duration-500">
+                            <img :src="rows.images" :title="rows.name"
+                                class="py-2 mx-auto transition ease-in group-hover:-translate-y-1 group-hover:scale-110 duration-300">
+                            <div class="px-6 py-4">
+                                <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -53,15 +56,16 @@
             <!-- end:: geprek -->
             <!-- begin:: saos -->
             <div class="px-5 py-7">
-                <h2 class="font-bold mb-5 text-center text-2xl">Crispy</h2>
+                <h2 class="font-bold mb-5 text-center text-2xl">Saos</h2>
 
                 <div class="gap-4 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-                    <div v-for="rows in crispy" :key="rows.name"
-                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
-                        <img :src="rows.images" :title="rows.name"
-                            class="py-2 mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
-                        <div class="px-6 py-4">
-                            <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
+                    <div v-for="rows in saos" :key="rows.name" class="my-auto group">
+                        <div class="px-2 py-2 rounded-md group-hover:shadow-xl group-hover:duration-500">
+                            <img :src="rows.images" :title="rows.name"
+                                class="py-2 mx-auto transition ease-in group-hover:-translate-y-1 group-hover:scale-110 duration-300">
+                            <div class="px-6 py-4">
+                                <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,15 +73,16 @@
             <!-- end:: saos -->
             <!-- begin:: drink -->
             <div class="px-5 py-7">
-                <h2 class="font-bold mb-5 text-center text-2xl">Crispy</h2>
+                <h2 class="font-bold mb-5 text-center text-2xl">Minuman</h2>
 
                 <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-                    <div v-for="rows in drink" :key="rows.name"
-                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
-                        <img :src="rows.images" :title="rows.name"
-                            class="py-2 mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
-                        <div class="px-6 py-4">
-                            <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
+                    <div v-for="rows in drink" :key="rows.name" class="my-auto group">
+                        <div class="px-2 py-2 rounded-md group-hover:shadow-xl group-hover:duration-500">
+                            <img :src="rows.images" :title="rows.name"
+                                class="py-2 mx-auto transition ease-in group-hover:-translate-y-1 group-hover:scale-110 duration-200">
+                            <div class="px-6 py-4">
+                                <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -151,11 +156,11 @@
             name: 'Crispy Rica-rica',
         },
         {
-            images: './../../menus/food/saos/scrispy_saos_keju.png',
+            images: './../../menus/food/saos/crispy_saos_keju.png',
             name: 'Crispy Saos Keju',
         },
         {
-            images: './../../menus/food/saos/scrispy_super_pedas.png',
+            images: './../../menus/food/saos/crispy_super_pedas.png',
             name: 'Crispy Super Pedas',
         },
     ]
