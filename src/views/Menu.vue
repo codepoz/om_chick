@@ -44,8 +44,7 @@
                 <div class="gap-4 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                     <div v-for="rows in geprek" :key="rows.name" class="my-auto group">
                         <div class="px-2 py-2 rounded-md group-hover:shadow-xl group-hover:duration-500">
-                            <img :src="rows.images" :title="rows.name"
-                                class="py-2 mx-auto transition ease-in group-hover:-translate-y-1 group-hover:scale-110 duration-300">
+                            <img :src="rows.images" :title="rows.name" class="py-2 mx-auto transition ease-in group-hover:-translate-y-1 group-hover:scale-110 duration-300">
                             <div class="px-6 py-4">
                                 <p class="font-semibold text-lg text-center text-textone">{{ rows.name }}</p>
                             </div>

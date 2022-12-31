@@ -84,12 +84,12 @@
                 <h2 class="font-semibold mb-5 text-2xl lg:text-4xl">Menu Kami</h2>
 
                 <div class="gap-4 grid py-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-                    <div v-for="rows in menus" :key="rows.name"
-                        class="px-2 py-2 my-auto rounded-md hover:shadow-xl hover:duration-500">
-                        <img :src="rows.images" :title="rows.name"
-                            class="mx-auto transition ease-in hover:-translate-y-1 hover:scale-110 duration-200">
-                        <div class="px-6 py-4">
-                            <p class="font-semibold text-lg text-textone">{{ rows.name }}</p>
+                    <div v-for="rows in menus" :key="rows" class="my-auto group">
+                        <div class="px-2 py-2 my-auto rounded-md group-hover:shadow-xl group-hover:duration-500">
+                            <img :src="rows.images" :title="rows.name" class="py-2 mx-auto transition ease-in group-hover:-translate-y-1 group-hover:scale-110 duration-300">
+                            <div class="px-6 py-4">
+                                <p class="font-semibold text-lg text-textone">{{ rows.name }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
         </div>
     </section>
 
-    <section class="pt-10 pb-10 bg-bgthree"  v-motion-slide-visible-bottom>
+    <section class="pt-10 pb-10 bg-bgthree" v-motion-slide-visible-bottom>
         <div class="container mx-auto">
             <div class="px-5 justify-center text-center">
                 <h2 class="font-semibold mb-5 text-white text-2xl lg:text-4xl">Kunjungi Instagram Kami</h2>
